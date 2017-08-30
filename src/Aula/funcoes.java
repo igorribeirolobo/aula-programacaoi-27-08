@@ -21,8 +21,20 @@ public class funcoes {
 	public int converterInt()
 	{
 		int myInt;
-		double myPercent = 51.9;
+		double myPercent = 52.9;
 		
 		return myInt = (int)myPercent;
+	}
+	
+	public byte converterByte()
+	{
+		int num1 = 53;
+		int num2 = 47;
+		byte num3;
+		
+		return num3 = (byte) (num1 + num2);
+		
+		
+		
 	}
 }
