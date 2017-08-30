@@ -33,8 +33,34 @@ public class funcoes {
 		byte num3;
 		
 		return num3 = (byte) (num1 + num2);
+    }
+	
+	public short promocaoAutomatica()
+	{
+		short a,b,c;
+		a = 1;
+		b = 2;
 		
+		return c = (short) (a + b);
+	}
+	
+	public long Person()
+	{
+		int ageYears = 32;
+		int ageDays = ageYears * 365;
+		long ageSeconds = ageYears * 365 * 24L * 60 * 60;
 		
+		return ageSeconds;
 		
+	}
+	
+	public int parseString()
+	{
+		String texto = "2";
+		String texto1 = "1";
+		int texto2 = Integer.parseInt(texto) + Integer.parseInt(texto1) ;
+		
+		return texto2;
+	   
 	}
 }
