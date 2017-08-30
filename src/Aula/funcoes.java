@@ -63,4 +63,11 @@ public class funcoes {
 		return texto2;
 	   
 	}
+	public int SomarScanner(int a, int b)
+	{
+		int num3;
+		
+		return num3 = a + b;
+	}
+	
 }
